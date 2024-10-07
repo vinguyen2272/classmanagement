@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
+  base: 'classmanagement', 
   plugins: [
     react(),
-    visualizer({ open: true }), // Mở bản phân tích khi build
   ],
   build: {
     outDir: 'build',

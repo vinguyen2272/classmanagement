@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, HashRouter  as Router, Routes } from 'react-router-dom'
 import { publicRoutes, privateRoutes } from './routes'
 import { Fragment, useEffect } from 'react'
 import DefaultLayout from './components/Layout/DefaultLayout/DefaultLayout'
