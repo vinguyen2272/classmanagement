@@ -1,0 +1,110 @@
+.tabElement {
+  width: 81%;
+  padding: 10px 0 0 20px;
+  display: flex;
+  gap: 10px;
+  border-top: 2px solid #8b8b8b;
+}
+
+.timeAllocation {
+  width: 46%;
+}
+
+.assessmentSchema {
+  flex: 1;
+}
+.timeAllocation,
+.assessmentSchema {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/* Time Allocation */
+.timeAllocation div {
+  flex-direction: row;
+  padding: 35px 16px 30px;
+  align-items: center;
+}
+
+.timeAllocation canvas {
+  height: fit-content;
+  padding: 0;
+}
+
+.timeAllocation ul {
+  flex: 1;
+}
+.timeAllocation li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Assessment Schema */
+.schemaHeader {
+  padding: 5px 0px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.schemaContent {
+  padding: 0 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.schemaTotal {
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.SchemaTagname {
+  width: 35%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schemaTotal ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.schemaPercent {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-family: Inter;
+  font-style: italic;
+}
+
+.schemaFinal {
+  padding: 10px 0 20px;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+}
+.schemaFinal ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schemaPassing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.passing {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+}

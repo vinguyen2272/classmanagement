@@ -1,0 +1,27 @@
+.attendeeItems {
+  width: calc(100% / 3);
+  padding: 10px 0px;
+  color: white;
+}
+.attendeeItemsLabel {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+.attendeeItemsCount {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+.cusInput {
+  width: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 0.5px solid #8b8b8b;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  justify-content: center;
+}

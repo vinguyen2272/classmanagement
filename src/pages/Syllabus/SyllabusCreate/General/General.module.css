@@ -1,0 +1,88 @@
+.general {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tabElement {
+  width: 81%;
+  padding: 10px 16px;
+  border-top: 2px solid #8b8b8b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.level,
+.attendee {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.levelSelect {
+  height: 30px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  flex: 1;
+  box-shadow: 0px 4px 8px 3px #00000026;
+}
+.levelSelect span.p-dropdown-label.p-inputtext {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.attendeeInput {
+  height: 36px;
+  padding: 10px;
+  gap: 16px;
+  border-radius: 6px;
+  border: 1px solid #8b8b8b;
+}
+
+.techRequirement {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1px 0;
+}
+
+.TagName {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.techRequirementList {
+  padding: 10px;
+  list-style: disc;
+  list-style-position: inside;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+}
+
+.timeAllocation {
+  flex: 1;
+  height: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}

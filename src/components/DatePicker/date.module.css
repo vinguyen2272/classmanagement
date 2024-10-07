@@ -1,0 +1,28 @@
+button[data-pc-section='monthtitle'] {
+  padding-right: 1rem;
+}
+.myTab span[data-p-highlight='true'] {
+  background: #2d3748;
+  color: white;
+}
+.container div[data-pc-section='title'] {
+  margin: 0 2rem !important;
+}
+.container div[data-pc-section='header'] {
+  justify-content: center;
+}
+.myTab a[aria-selected='true'] {
+  background: #2d3748;
+  color: white;
+  display: flex;
+  width: 80px;
+  height: 30px;
+  justify-content: center;
+  border-radius: 7px;
+}
+.myTab a[aria-selected='false'] {
+  display: flex;
+  width: 80px;
+  height: 30px;
+  justify-content: center;
+}

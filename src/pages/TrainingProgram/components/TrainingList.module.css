@@ -1,0 +1,30 @@
+.dialogContainer div[data-pc-section='content'] {
+  border-radius: 0;
+  width: 400px;
+}
+
+.dialogContainer div[data-pc-section='header'] {
+  padding: 10px 20px;
+}
+
+.dialogContainer span[data-pc-section='message'] {
+  padding: 15px 20px;
+}
+
+.dialogContainer button[data-pc-name='button'] {
+  margin: 0px 10px;
+}
+
+.dialogHeader {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.dialogFooter {
+  padding: 10px 20px 20px 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}

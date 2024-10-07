@@ -1,0 +1,82 @@
+.container {
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container a[data-pc-section="headeraction"]{
+    border-radius: 20px 20px 0 0;
+    background-color: #2D3748;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    margin-left: -2px;
+}
+.container div[data-pc-section="panelcontainer"]{
+    padding: 0;
+    margin: 0;
+}
+.container div[data-pc-section="body"]{
+    padding: 10px 30px 6px 30px;
+    margin: 0.2px 0 0 0;
+    background-color: #2D3748;
+    color: white;
+    border-radius: 0 20px 0 0;
+}
+.container div[data-pc-section="content"]{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+.title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -14px;
+    gap: 26px;
+}
+.title p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    letter-spacing: 0.2em;
+    padding: 0;
+    margin: 0;
+}
+.title svg{
+    cursor: pointer;
+}
+.title svg:hover{
+    opacity: 0.6;
+    /* color: white; */
+}
+.detail{
+    margin-top: 10px;
+}
+
+.devops{
+    margin-bottom: 20px;
+}
+.listCourse{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottomDevops{
+    background: #2D3748;
+    height: 16px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Add inactive class styling */
+.inactive a[data-pc-section="headeraction"] {
+    background-color: #6D7684;
+}

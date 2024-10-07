@@ -1,0 +1,79 @@
+.container{
+
+}
+
+.navigationBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.backBtn{
+    padding: 7px 25px 7px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #2D3748;
+    color: white;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+}
+.backBtn:hover{ opacity: 0.8; }
+
+.cancelSubmitNext{
+    display: flex;
+    gap: 10px;
+}
+
+.cancelBtn{
+    padding: 7px 25px 7px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #ffffff;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+    text-decoration: underline;
+    text-underline-offset: 3px; /* Thêm thuộc tính này để gạch dưới cách chữ 5px */
+}
+.cancelBtn:hover{ opacity: 0.8; }
+
+
+.submitBtn{
+    padding: 7px 25px 7px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #474747;
+    color: white;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+}
+.submitBtn:hover{ opacity: 0.8; }
+
+
+.nextBtn{
+    padding: 7px 25px 7px 25px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #2D3748;
+    color: white;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.94px;
+}
+.nextBtn:hover{ opacity: 0.8; }

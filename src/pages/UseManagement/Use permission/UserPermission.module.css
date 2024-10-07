@@ -1,0 +1,63 @@
+.contentPer {
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.tablePer {
+  width: 100%;
+  margin-top: 10px;
+}
+.cancelButton {
+  color: #e74a3b;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.saveButton {
+  background-color: #2d3748;
+  width: 84px;
+  font-size: 14px;
+  padding: 6px 25px;
+  border-radius: 10px;
+  color: white;
+}
+.submitButton {
+  margin-top: 30px;
+  padding: 3px 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+.updateButton {
+  padding: 4px 0;
+  width: 150px;
+  background-color: #2d3748;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.updateButtonDnone {
+  padding: 4px 0;
+  width: 150px;
+  background-color: #2d3748;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  visibility:hidden;
+}
+.buttonUpdate {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.tablePer [data-pc-section="table"] [data-pc-section="thead"] [data-pc-section="headercell"] [data-pc-section="headercontent"]{
+/* width: 100%; */
+text-align: center !important;
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,11 @@
+.renderColumn{
+    display: flex;
+    gap: 5px;
+    /* width: 110px; */
+    /* margin: 0 auto; */
+  }
+  /* .perControl [data-pc-section="table"] [data-pc-section="thead"] [data-pc-section="headercell"] [data-pc-section="headercontent"]{
+    display: flex;
+    justify-content: center;
+  } */
+ 

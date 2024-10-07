@@ -1,0 +1,9 @@
+.p-tooltip-arrow {
+  width: 0;
+}
+.p-tooltip-top[data-pc-name='tooltip'] .p-tooltip-arrow {
+  border-top: 16px solid black !important;
+  border-left: 8px solid white !important;
+  border-right: 8px solid white !important;
+  border-bottom: 0 !important;
+}

@@ -1,0 +1,278 @@
+.container {
+  position: relative;
+  display: inline-block;
+
+  z-index: 10;
+}
+.filteringToolContainer {
+  position: absolute;
+  background-color: white;
+  width: 760px;
+  height: fit-content;
+  top: 38px;
+  left: 0;
+  display: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0px 1px 3px 1px #00000026;
+  box-shadow: 0px 1px 2px 0px #0000004d;
+}
+
+.filteringToolContainer.show {
+  display: block;
+}
+
+#filteringToolContainer {
+}
+
+#filteringToolContainer label {
+  display: block;
+  text-align: left;
+}
+
+.filterRow1 {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+
+.filterRow1 > div:nth-of-type(1) {
+  width: 50%;
+}
+.filterRow1 > div:nth-of-type(2) {
+  width: 50%;
+}
+
+.filterRow1 > .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div[data-pc-section='labelcontainer'] > div {
+  width: 100%;
+  text-align: left;
+}
+.container div[data-pc-section='token'] {
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: rgb(139, 139, 139);
+  color: rgb(223, 222, 222);
+}
+
+.wrapper > div {
+  width: 100%;
+  display: flex;
+}
+
+.filterRow1 > div:nth-of-type(2) .wrapper > div > div {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.filterRow1 > div:nth-of-type(2) .wrapper > div > div > span {
+  width: 50%;
+}
+.wrapper:nth-child(2) > div:nth-child(2) {
+  gap: 20px;
+}
+.wrapper:nth-child(2) > div:nth-child(2) > div {
+  display: flex;
+  gap: 10px;
+}
+
+.wrapper:nth-child(2) > div:nth-child(2) {
+  height: 42.5px;
+  align-items: center;
+}
+
+.wrapper:nth-child(2) > div:nth-child(2) > div {
+  height: 100%;
+  align-items: center;
+}
+
+.wrapper:nth-child(2) > div:nth-child(2) > div > span[data-pc-section='root'] {
+  border: 1px solid gray;
+  height: 42.5px;
+  border-radius: 4px;
+}
+
+.wrapper:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > span[data-pc-section='root']
+  input {
+  height: 100%;
+  padding: 10px;
+}
+
+div[data-pc-section='panel'] {
+  box-shadow: 0px 1px 3px 0px #0000004d;
+
+  box-shadow: 0px 4px 8px 3px #00000026;
+}
+
+.wrapper:nth-child(2)
+  > div:nth-child(2)
+  > div
+  > span[data-pc-section='root']
+  div[data-pc-section='label'] {
+  width: fit-content !important;
+  border-radius: 4px;
+}
+
+.wrapper > label {
+  font-weight: 600;
+}
+
+.filterRow2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.filterRow2 > div {
+  width: 33%;
+  text-align: left;
+}
+
+.filterRow2 > div > span {
+  width: fit-content;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.filterRow2 > div label {
+  font-size: 14px;
+}
+
+.functioningBtn {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+#classTimeMorning {
+}
+
+#classTimeNoon {
+}
+
+#classTimeNight {
+}
+
+#classTimeOnline {
+}
+
+#attendeeIntern,
+#attendeeFresher,
+#attendeeOnline-fee-fresher,
+#attendeeOffline-fee-fresher {
+}
+
+.selectGroup > div {
+  display: flex;
+}
+
+.classTime {
+  display: flex;
+}
+
+#classTimeId {
+}
+
+.classStatus {
+  display: flex;
+}
+
+.attendee {
+  display: flex;
+}
+
+#FSUSelector {
+}
+
+.TrainerSelector {
+}
+
+.container .selectGroup > div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container .selectGroup > div label {
+  height: fit-content;
+}
+
+.container input[type='checkbox'] {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#statusPlanning {
+}
+
+#statusOpening {
+}
+
+#statusClosed {
+}
+
+.container input[type='checkbox']:checked {
+  background-color: black;
+  color: black;
+  border: 1px solid black !important;
+}
+.container input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  accent-color: transparent;
+  border: 1px solid black !important;
+}
+.classTime > span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.classStatus > span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.attendee > span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.filterRow3 {
+  display: flex;
+  gap: 87px;
+}
+
+.filterRow3 > div > label {
+  font-weight: 600;
+}
+
+.filterRow3 > div {
+  display: flex;
+  width: 50%;
+  gap: 15px;
+  align-items: center;
+  font-size: 14px;
+}
+
+#FSUSelector {
+  border: 1px solid gray;
+}
+
+#TrainerSelector {
+  border: 1px solid gray;
+}
+
+button[data-pc-section='monthtitle'] {
+  margin-right: 10px;
+}

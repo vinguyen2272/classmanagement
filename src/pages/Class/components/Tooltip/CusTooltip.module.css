@@ -1,0 +1,14 @@
+.tooltipWrapper {
+  max-width: 180px;
+}
+.tooltipWrapper div[data-pc-section='text'] {
+  background-color: #ffffff;
+  border: 1px solid #474747;
+  color: #474747;
+}
+
+.tooltipWrapper {
+}
+
+.tooltipWrapper .p-tooltip-arrow {
+}

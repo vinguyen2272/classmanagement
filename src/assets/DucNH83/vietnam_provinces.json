@@ -1,0 +1,316 @@
+[
+  {
+    "name": "An Giang",
+    "code": "44",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "B\u00e0 R\u1ecba - V\u0169ng T\u00e0u",
+    "code": "43",
+    "region": "Southeast"
+  },
+  {
+    "name": "B\u1eafc Giang",
+    "code": "54",
+    "region": "Northeast"
+  },
+  {
+    "name": "B\u1eafc K\u1ea1n",
+    "code": "58",
+    "region": "Northeast"
+  },
+  {
+    "name": "B\u1ea1c Li\u00eau",
+    "code": "59",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "B\u1eafc Ninh",
+    "code": "56",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "B\u1ebfn Tre",
+    "code": "50",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "B\u00ecnh \u0110\u1ecbnh",
+    "code": "31",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "B\u00ecnh D\u01b0\u01a1ng",
+    "code": "57",
+    "region": "Southeast"
+  },
+  {
+    "name": "B\u00ecnh Ph\u01b0\u1edbc",
+    "code": "51",
+    "region": "Southeast"
+  },
+  {
+    "name": "B\u00ecnh Thu\u1eadn",
+    "code": "40",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "C\u00e0 Mau",
+    "code": "60",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "C\u1ea7n Th\u01a1",
+    "code": "55",
+    "region": "Mekong Delta",
+    "type": "Municipality"
+  },
+  {
+    "name": "Cao B\u1eb1ng",
+    "code": "61",
+    "region": "Northeast"
+  },
+  {
+    "name": "\u0110\u00e0 N\u1eb5ng",
+    "code": "48",
+    "region": "South Central Coast",
+    "type": "Municipality"
+  },
+  {
+    "name": "\u0110\u1eafk L\u1eafk",
+    "code": "33",
+    "region": "Central Highlands"
+  },
+  {
+    "name": "\u0110\u1eafk N\u00f4ng",
+    "code": "72",
+    "region": "Central Highlands"
+  },
+  {
+    "name": "\u0110i\u1ec7n Bi\u00ean",
+    "code": "71",
+    "region": "Northwest"
+  },
+  {
+    "name": "\u0110\u1ed3ng Nai",
+    "code": "39",
+    "region": "Southeast"
+  },
+  {
+    "name": "\u0110\u1ed3ng Th\u00e1p",
+    "code": "45",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "Gia Lai",
+    "code": "30",
+    "region": "Central Highlands"
+  },
+  {
+    "name": "H\u00e0 Giang",
+    "code": "66",
+    "region": "Northeast"
+  },
+  {
+    "name": "H\u00e0 Nam",
+    "code": "63",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "H\u00e0 N\u1ed9i",
+    "code": "01",
+    "region": "Red River Delta",
+    "type": "Municipality"
+  },
+  {
+    "name": "H\u00e0 T\u0129nh",
+    "code": "23",
+    "region": "North Central"
+  },
+  {
+    "name": "H\u1ea3i D\u01b0\u01a1ng",
+    "code": "61",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "H\u1ea3i Ph\u00f2ng",
+    "code": "31",
+    "region": "Red River Delta",
+    "type": "Municipality"
+  },
+  {
+    "name": "H\u1eadu Giang",
+    "code": "93",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "H\u00f2a B\u00ecnh",
+    "code": "14",
+    "region": "Northwest"
+  },
+  {
+    "name": "H\u01b0ng Y\u00ean",
+    "code": "66",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "Kh\u00e1nh H\u00f2a",
+    "code": "34",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "Ki\u00ean Giang",
+    "code": "47",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "Kon Tum",
+    "code": "28",
+    "region": "Central Highlands"
+  },
+  {
+    "name": "Lai Ch\u00e2u",
+    "code": "68",
+    "region": "Northwest"
+  },
+  {
+    "name": "L\u00e2m \u0110\u1ed3ng",
+    "code": "35",
+    "region": "Central Highlands"
+  },
+  {
+    "name": "L\u1ea1ng S\u01a1n",
+    "code": "20",
+    "region": "Northeast"
+  },
+  {
+    "name": "L\u00e0o Cai",
+    "code": "21",
+    "region": "Northwest"
+  },
+  {
+    "name": "Long An",
+    "code": "80",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "Nam \u0110\u1ecbnh",
+    "code": "67",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "Ngh\u1ec7 An",
+    "code": "40",
+    "region": "North Central"
+  },
+  {
+    "name": "Ninh B\u00ecnh",
+    "code": "37",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "Ninh Thu\u1eadn",
+    "code": "36",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "Ph\u00fa Th\u1ecd",
+    "code": "25",
+    "region": "Northeast"
+  },
+  {
+    "name": "Ph\u00fa Y\u00ean",
+    "code": "32",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "Qu\u1ea3ng B\u00ecnh",
+    "code": "29",
+    "region": "North Central"
+  },
+  {
+    "name": "Qu\u1ea3ng Nam",
+    "code": "27",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "Qu\u1ea3ng Ng\u00e3i",
+    "code": "26",
+    "region": "South Central Coast"
+  },
+  {
+    "name": "Qu\u1ea3ng Ninh",
+    "code": "22",
+    "region": "Northeast"
+  },
+  {
+    "name": "Qu\u1ea3ng Tr\u1ecb",
+    "code": "28",
+    "region": "North Central"
+  },
+  {
+    "name": "S\u00f3c Tr\u0103ng",
+    "code": "52",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "S\u01a1n La",
+    "code": "11",
+    "region": "Northwest"
+  },
+  {
+    "name": "T\u00e2y Ninh",
+    "code": "24",
+    "region": "Southeast"
+  },
+  {
+    "name": "Th\u00e1i B\u00ecnh",
+    "code": "09",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "Th\u00e1i Nguy\u00ean",
+    "code": "19",
+    "region": "Northeast"
+  },
+  {
+    "name": "Thanh H\u00f3a",
+    "code": "38",
+    "region": "North Central"
+  },
+  {
+    "name": "Th\u1eeba Thi\u00ean Hu\u1ebf",
+    "code": "25",
+    "region": "North Central"
+  },
+  {
+    "name": "Ti\u1ec1n Giang",
+    "code": "46",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "Tr\u00e0 Vinh",
+    "code": "51",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "Tuy\u00ean Quang",
+    "code": "08",
+    "region": "Northeast"
+  },
+  {
+    "name": "V\u0129nh Long",
+    "code": "49",
+    "region": "Mekong Delta"
+  },
+  {
+    "name": "V\u0129nh Ph\u00fac",
+    "code": "03",
+    "region": "Red River Delta"
+  },
+  {
+    "name": "Y\u00ean B\u00e1i",
+    "code": "23",
+    "region": "Northeast"
+  }
+]

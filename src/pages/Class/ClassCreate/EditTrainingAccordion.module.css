@@ -1,0 +1,145 @@
+.listCourse {
+  padding: 0px 20px;
+}
+
+.listCourse > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.listCourse div[data-pc-section='content'] {
+  padding: 0px 8px;
+}
+
+.listCourse a[data-pc-section='headeraction'] {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.listCourse span[data-pc-section='headertitle'] div:first-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.listCourse
+  span[data-pc-section='headertitle']
+  div:first-child
+  div:first-child
+  h5 {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.listCourse
+  span[data-pc-section='headertitle']
+  div:first-child
+  div:first-child
+  h5
+  > span:first-child {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 6px;
+}
+
+.listCourse
+  span[data-pc-section='headertitle']
+  div:first-child
+  div:first-child
+  h5
+  > span:last-child {
+  background-color: var(--primary-color);
+}
+
+.course a[data-pc-section='headeraction'] {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: 0px;
+}
+
+.course div[data-pc-section='content'] {
+  padding: 0px;
+}
+
+.unitItem {
+  display: flex;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 8px 8px #ccc;
+  padding: 20px;
+  gap: 20px;
+}
+
+.unitItem > div:last-child {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 12px;
+
+  background-color: #ccc;
+  gap: 20px;
+
+  margin-bottom: 4px;
+  padding: 4px 20px;
+}
+
+.item > div:last-child {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.unit a[data-pc-section='headeraction'] {
+  color: #000;
+  background-color: #fff;
+
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+  border-radius: 0px;
+  padding: 20px;
+}
+
+.item > div:last-child > div > button {
+  padding: 4px 12px;
+  border-radius: 20%/50%;
+}
+
+.unitItemLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.unitItemLeft > div:last-child > button {
+  background-color: transparent;
+  color: #ccc;
+  border: 2px solid #ccc;
+}
+
+.image {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.image > img {
+  border-radius: 50%;
+}

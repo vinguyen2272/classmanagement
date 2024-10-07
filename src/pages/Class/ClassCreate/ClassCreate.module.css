@@ -1,0 +1,199 @@
+.classCreateNoInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.classInput {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+
+.classInput > div {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.classInput > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputField {
+  height: 36px;
+  width: 400px;
+
+  color: #474747;
+
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.inputField::placeholder {
+  color: #474747;
+  font-style: italic;
+}
+
+.classInput > div > button {
+  height: 32px;
+  padding: 2px 25px;
+}
+
+.classInput > div > button > span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/* Have Class Input */
+.classCreate {
+  box-sizing: border-box;
+}
+
+.classCreateContent {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 23px;
+
+  gap: 20px;
+
+  box-sizing: border-box;
+}
+
+.classContent1 {
+  display: flex;
+
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.classContent2 {
+}
+
+.general {
+  width: 36%;
+}
+
+.timeFrame {
+  width: 66%;
+}
+
+.timeFrame div[data-pc-section='groupcontainer'] {
+  display: flex;
+  width: 100%;
+
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.timeFrame div[data-pc-section='table'] {
+  width: 50%;
+}
+
+.classCreateContent > .classContent1 > .timeFrame > div > div {
+  width: 100%;
+}
+
+.training {
+  padding: 0px 20px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+}
+
+.action > div {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.actionNoBack {
+  display: flex;
+  justify-content: end;
+
+  padding: 20px;
+}
+
+.actionNoBack > div {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.listCourse {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 20px;
+
+  gap: 20px;
+}
+
+.listCourse > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.actionSyllabus {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+
+  gap: 20px;
+}
+
+.actionSyllabus > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.search span[data-pc-name='inputicon'] {
+  align-self: center;
+}
+.search input[data-pc-name='inputtext'] {
+  padding: 7px 16px 7px 2.5rem;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+
+.search {
+  display: flex;
+  gap: 5px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tooltipText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.classInfoWrapper {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}

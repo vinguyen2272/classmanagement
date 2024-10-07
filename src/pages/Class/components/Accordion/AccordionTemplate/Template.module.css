@@ -1,0 +1,48 @@
+.card {
+  width: 100%;
+  font-family: Inter, sans-serif;
+}
+
+.accordionContent {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.card a[data-pc-section='headeraction'] {
+  border-bottom: 1px solid #f1f1f1;
+  background: var(--primary-color);
+  color: white;
+  padding: 11.5px 20px 11.5px 20px;
+}
+
+.card span[data-pc-section='headertitle'] {
+  order: 1;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card span[data-pc-section='headertitle'] div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-wrap: nowrap;
+}
+
+.card span[data-pc-section='headertitle'] > span {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.card .subheader {
+  font-weight: 400;
+}
+
+.card div[data-pc-section='headericon'] {
+  order: 2;
+}
+
+.card div[data-pc-section='content'] {
+  border: 0px;
+  padding: 20px;
+}

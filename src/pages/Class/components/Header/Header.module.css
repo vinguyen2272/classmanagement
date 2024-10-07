@@ -1,0 +1,251 @@
+.header * {
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerOnly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 76px;
+  width: 100%;
+
+  color: white;
+  background-color: var(--primary-color);
+
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 201px;
+  width: 100%;
+
+  color: white;
+  background-color: var(--primary-color);
+
+  padding: 20px 30px;
+  gap: 8px;
+}
+
+.headerInfo {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.headerDetail {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.headerDetail > div {
+  display: flex;
+
+  gap: 20px;
+}
+
+.headerClassTop {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: 5px;
+}
+
+.headerName > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerName > div > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  margin: 0;
+
+  border: 1.5px solid #fff;
+  border-radius: 16%/50%;
+}
+
+.headerName > div > button > span {
+  margin: 0;
+}
+
+.headerClassBottom {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.headerDetail > div > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.57px;
+  letter-spacing: 10px;
+}
+
+/* .headerDetail > div > h2::before {
+  position: absolute;
+  content: '';
+  bottom: -30%;
+  left: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background-color: #ccc;
+} */
+
+.headerAction {
+  display: flex;
+  padding-top: 20px;
+
+  border-top: 2px solid #ccc;
+
+  gap: 32px;
+}
+
+.headerBtn {
+  display: flex;
+
+  gap: 8px;
+}
+
+.headerDay {
+  position: relative;
+  display: flex;
+
+  gap: 4px;
+}
+
+.mainText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.subText {
+  display: flex;
+  align-items: end;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.headerDay::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: -18px;
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+/* Edit Header */
+.headerEdit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 201px;
+  width: 100%;
+
+  color: black;
+  background-color: white;
+
+  padding: 20px 0px;
+  gap: 8px;
+}
+
+.headerInfoEdit {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0px 30px;
+}
+
+.headerDetailEdit {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.headerDetailEdit > div {
+  display: flex;
+
+  gap: 20px;
+}
+
+.headerClassTopEdit {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: 5px;
+}
+
+.headerNameEdit > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerNameEdit > div > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  margin: 0;
+
+  border: 1.5px solid #fff;
+  border-radius: 16%/50%;
+}
+
+.headerNameEdit > div > button > span {
+  margin: 0;
+}
+
+.headerDetailEdit > div > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.57px;
+  letter-spacing: 10px;
+}
+
+.headerActionEdit {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 30px;
+
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.headerDayEdit {
+  position: relative;
+  display: flex;
+
+  gap: 4px;
+}
+
+.headerDayModified {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}

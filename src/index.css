@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+:root {
+  --primary-color: #2d3748;
+  --secondary-color: #4f6181;
+  --orange-color: #d45b13;
+  --green-color: #2f903f;
+  --white-color: #edf2f7;
+  --icon-gray-color: rgba(237, 242, 247, 1);
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}

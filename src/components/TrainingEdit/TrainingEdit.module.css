@@ -1,0 +1,155 @@
+.container {
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container a[data-pc-section="headeraction"]{
+    border-radius: 20px 20px 0 0;
+    background-color: #2D3748;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    margin-left: -2px;
+}
+.container div[data-pc-section="panelcontainer"]{
+    padding: 0;
+    margin: 0;
+}
+.container div[data-pc-section="body"]{
+    padding: 10px 30px 0 30px;
+    margin: 0.2px 0 0 0;
+    background-color: #2D3748;
+    color: white;
+    border-radius: 0 20px 0 0;
+}
+.container div[data-pc-section="title"]{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    letter-spacing: 0.2em;
+    padding: 0;
+    margin: 0;
+}
+.container div[data-pc-section="content"]{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.devops{
+    margin-bottom: 20px;
+}
+
+
+
+.bottomDevops{
+    background: #2D3748;
+    height: 16px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Add inactive class styling */
+.inactive a[data-pc-section="headeraction"] {
+    background-color: #6D7684;
+}
+
+
+.trainingGroup{
+
+}
+
+.trainingGroup p{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+}
+
+.inputIcon {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    z-index: 1;
+}
+
+/* .inputField {
+    width: 100%;
+    padding: 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #000000;
+}
+
+.inputField::placeholder {
+    font-style: italic; 
+} */
+
+.container input[data-pc-name="inputtext"]{
+    width: 440px;
+    padding: 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #000000;
+}
+
+/* suggested line */
+.suggest{
+
+}
+
+.suggest strong{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.suggest > div {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infor {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #323232;
+}

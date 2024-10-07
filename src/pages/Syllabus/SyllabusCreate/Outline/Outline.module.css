@@ -1,0 +1,30 @@
+.addBtn button {
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+.addBtn span[data-pc-section='icon'] {
+  color: #fff;
+  font-size: 20px;
+}
+.addBtn span[data-pc-section='label'] {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  color: #fff;
+}
+
+.addDayBtn button {
+  background-color: var(--primary-color);
+}
+
+.outlineContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.scheduleList {
+  width: 81%;
+}
+.allocation {
+  flex: 1;
+}

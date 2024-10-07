@@ -1,0 +1,61 @@
+/* Đặt chiều rộng cho toàn bộ menu */
+.S_tieredMenu {
+  width: 260px !important;
+}
+
+
+
+
+.S_tieredMenu [data-pc-section='menu'] {
+  margin: 0;
+  padding: 10px 20px;
+  /* width: 260px; */
+  /* padding: 10px 20px 10px 20px; */
+  gap: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0px #0000004d;
+  box-shadow: 0px 4px 8px 3px #00000026;
+  
+}
+
+.S_tieredMenu [data-pc-section='menu'] [data-pc-section='submenu'] [data-pc-section="menuitem"] {
+padding: 0 10px;
+}
+.S_tieredMenu [data-pc-section='menu'] [data-pc-section='submenu'] [data-pc-section="menuitem"]:last-child [data-pc-section='content'] [data-pc-section='label']{
+color:#2c5282;
+}
+.S_tieredMenu [data-pc-section='menu'] [data-pc-section='submenu']{
+  padding: 10px 0;
+  width: 114px;
+  box-shadow: 0px 1px 4px 0px #00000040;
+  border-radius: 10px;
+
+
+}
+
+.S_tieredMenu [data-pc-section='content'] {
+  width: 100%;
+}
+
+.S_tieredMenu [data-pc-section='content'] [data-pc-section='action'] {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+.S_tieredMenu [data-pc-section='menu'] [data-pc-section="menuitem"]:last-child [data-pc-section='content'] [data-pc-section='label']{
+  color: #8b8b8b;
+}
+
+.S_tieredMenu [data-pc-section='content'] [data-pc-section='label'] {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c5282 ;
+}
+
+/* .deleteUser [data-pc-section='label'] {
+  color: #8b8b8b;
+}
+.deleteUser svg {
+  color: #8b8b8b !important;
+} */

@@ -1,0 +1,18 @@
+.tsa {
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header > h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 5px;
+}
+
+.content {
+  padding: 20px;
+}

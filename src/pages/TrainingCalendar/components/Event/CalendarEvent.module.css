@@ -1,0 +1,19 @@
+.myIcon{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.wrapContent{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+.wrapContainer{
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1000;
+    width: 100%;
+  
+}

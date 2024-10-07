@@ -1,0 +1,22 @@
+.tooltipText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.headerWrapper {
+}
+
+.classInfoWrapper {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  padding: 0 20px;
+}
+
+.trainingDetail {
+  padding: 0 20px;
+}

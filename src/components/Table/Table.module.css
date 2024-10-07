@@ -1,0 +1,79 @@
+.paginatorContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.paginator {
+  margin: 0 auto;
+}
+
+div[data-pc-section='wrapper'] {
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px 1px 3px #0000004d;
+}
+tr[data-pc-section='headerrow'] > th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+th[data-pc-section='headercell'] {
+  padding: 0.5rem 1rem;
+}
+
+tr[data-pc-section='bodyrow'] {
+  color: black;
+}
+
+td[data-pc-section='bodycell'] {
+  border-top: 1px solid rgba(45, 55, 72, 0.5);
+  padding: 10px 16px;
+}
+
+table[data-pc-section='table'] {
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid rgba(45, 55, 72, 0.5);
+}
+button[data-pc-section='pagebutton'][aria-current='true'] {
+  background-color: var(--primary-color) !important;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+button[data-pc-section='pagebutton'] {
+  background-color: e2e8f0 !important;
+  color: var(--primary-color);
+  font-weight: 700;
+  border: none;
+}
+button[data-pc-section='pagebutton'],
+button[data-pc-section='prevpagebutton'],
+button[data-pc-section='firstpagebutton'],
+button[data-pc-section='nextpagebutton'],
+button[data-pc-section='lastpagebutton'] {
+  background-color: white !important;
+  color: var(--primary-color);
+  border-radius: 50%;
+  margin: 0 0.25rem;
+  border: none;
+}
+
+button[data-pc-section='pagebutton'] {
+  background-color: #e2e8f0;
+}
+
+/* Dropdown */
+.dropDownContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.dropDownTitle {
+  margin-right: 10px;
+}

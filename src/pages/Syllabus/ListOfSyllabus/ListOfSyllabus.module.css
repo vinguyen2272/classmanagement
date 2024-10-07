@@ -1,0 +1,140 @@
+.container {
+  padding: 1rem;
+}
+.h1 {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+.standardButton {
+  width: 72px;
+  padding: 5px 15px;
+  border-radius: 50px;
+  background-color: rgba(45, 55, 72, 1);
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s;
+  margin-right: 5px;
+}
+
+.inactive {
+  background-color: rgba(185, 185, 185, 1);
+}
+
+.draft {
+  background-color: rgba(40, 93, 154, 1);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.iconSearch {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding-left: 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.calendar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+.iconCalendar {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.import {
+  margin-left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 7px 10px;
+  transition: color 0.3s;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  background-color: rgba(212, 91, 19, 1);
+}
+.add {
+  margin-left: 5px;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 7px 10px;
+  transition: color 0.3s;
+  background-color: rgba(45, 55, 72, 1);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.searchTerm {
+ margin-right: 5px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 7px 10px;
+  transition: color 0.3s;
+  background-color: rgba(71, 71, 71, 1);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.iconTimes{
+    font-size: 12px;
+    margin-left: 8px;
+}
+.filterTags{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 38px;
+}

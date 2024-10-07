@@ -1,0 +1,66 @@
+.canlendarContainer{
+    border: 1px solid #8B8B8B;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.calendaGroup{
+    border: none;
+    width: 100%;
+    outline: none !important;
+}
+
+.calendaGroup input:focus{
+    outline: none !important;
+    border: none    !important;
+    box-shadow: none !important;
+    background-color: white!important;
+}
+.calendaGroup input:active{
+    outline: none !important;
+    border: none    !important;
+    box-shadow: none !important;
+    background-color: white!important;
+}
+.calendaGroup input{
+    background-color: white;
+    padding: 6px 16px;
+    box-shadow: none !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.calendaGroup input::placeholder{
+    font-size: 12px;
+    font-style: italic;
+    color: #474747;
+    font-weight: 500;
+}
+/* [data-pc-section="daylabel"]{
+    background-color: white;
+}
+[data-pc-section="container"] [aria-selected="true"]{
+    background-color: #2D3748 !important;
+    color: white;
+} */
+/* [data-pc-section="container"] [data-pc-section="day"]{
+    font-size: 14px;
+    padding: 0px;
+} */
+ /* [data-pc-section="panel"]{
+    width: 290px;
+    padding: 0;
+    border-radius: 20px 20px 10px 10px;
+} */
+/* [data-pc-section="tableheaderrow"]{
+    width: 280px !important;
+} */
+/* [data-pc-section="group"] [data-pc-section="tableheadercell"]{
+    font-size: 14px;
+}
+[data-pc-section="groupcontainer"] [data-pc-section="header"] {
+    background-color: #fff;
+} */
+

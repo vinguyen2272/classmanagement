@@ -1,0 +1,68 @@
+.container{
+    
+}
+.cardContent {
+    display: flex;
+    align-items: center;
+    background-color: #DFDEDE;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.cardInfo {
+    padding: 6px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 0;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    font-variation-settings: 'slnt' 0;
+}
+
+.infor {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.infor span[data-pc-name="tag"] {
+    background-color: #2D3748;
+    padding: 4.5px 19px;
+}
+
+.standard {
+    background-color: #2D3748;
+    padding: 4.5px 19px;
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    font-variation-settings: 'slnt' 0;
+}
+
+.duration{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+
+.status {
+    background-color: #DFDEDE !important;
+    padding: 5px 15px !important;
+    border: 1px solid #D45B13;
+    color: #D45B13;
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}

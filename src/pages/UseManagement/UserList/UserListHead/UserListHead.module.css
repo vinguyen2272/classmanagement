@@ -1,0 +1,70 @@
+.contentHead {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  font-variation-settings: 'slnt' 0;
+}
+.tableHead {
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.inputSearch {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.inputItem {
+  width: 300px;
+  padding: 6px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #8b8b8b;
+  opacity: 0px;
+  padding-left: 40px;
+}
+.inputItem::placeholder {
+  font-size: 12px;
+  font-style: italic;
+  color: black;
+  font-weight: 500;
+}
+.searchIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+.filterButton {
+  padding: 4px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2d3748;
+  color: white;
+  cursor: pointer;
+}
+.searchAdd {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  width: 100%;
+}
+.searchItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.chipContainer{
+  margin-top: 14px;
+  display: flex;
+  gap:5px;
+}

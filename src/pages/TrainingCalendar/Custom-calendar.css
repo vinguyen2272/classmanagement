@@ -1,0 +1,25 @@
+.fc .fc-timegrid-event-harness.fc-timegrid-event-harness-inset  {
+    height: 50px;
+    }
+.fc-timegrid-event-harness.fc-timegrid-event-harness-inset {
+    width: 100%;
+  }
+  
+  .fc-timegrid-event-harness.fc-timegrid-event-harness-inset-small {
+    width: 230px;
+  }
+  
+  .fc-button-group{
+    width: 250px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: -304%;
+  }
+
+  .fc-button.fc-button-primary{
+    border: none;
+    border-radius: 20px !important;
+    background: white;
+    color: black;
+  }

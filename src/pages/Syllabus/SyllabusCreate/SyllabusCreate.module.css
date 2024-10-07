@@ -1,0 +1,118 @@
+.header {
+  padding: 20px 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 6px;
+  color: var(--primary-color);
+}
+.progressBarBox {
+  width: 27.25%;
+}
+.main {
+  padding: 0 20px;
+}
+.name {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.nameBox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nameLabel {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.nameField {
+  width: 300px;
+  height: 36px;
+  padding: 10px;
+  gap: 16px;
+  border: 1px solid #8b8b8b;
+  border-radius: 6px;
+}
+.btnGroup {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btnNoOutline {
+  cursor: pointer;
+  outline: none;
+}
+.version {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.version span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+.tabsControl {
+  padding: 0 20px;
+}
+
+.controller {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px 40px 0;
+  margin-top: 22px;
+}
+
+.btnCancel {
+  outline: none;
+  text-decoration: underline;
+  color: #e74a3b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.btnSaveAsDraft {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  padding: 2px 25px;
+  border-radius: 8px;
+  background-color: #474747;
+  box-shadow: 0px 1px 3px 1px #00000026;
+}
+
+.btnSave {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 2px 25px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px #00000026;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}

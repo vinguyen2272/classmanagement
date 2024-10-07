@@ -1,0 +1,100 @@
+
+.wrapContainer{
+    width: 98%;
+    margin: 2% auto;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 20px;
+  }
+.calendar div[data-pc-section="title"]{
+    margin: 0 2rem !important;
+   
+}
+.calendar div[data-pc-section="header"]{
+    justify-content: center;
+    
+}
+
+.calendar table[data-pc-section="table"]{
+    border: none;
+    border-top: 1px solid #edf2f7;
+
+}
+.calendar th[data-pc-section="tableheadercell"], .calendar td[data-pc-section="day"]{
+    font-size: large;
+}
+.calendar td[data-pc-section="day"]{
+    padding: 5px 0;
+}
+.calendar span[data-pc-section="daylabel"]
+{
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+   
+}
+.calendar span[data-p-highlight="true"]{
+    background: #2d3748;
+}
+.search span[data-pc-name='inputicon'] {
+    align-self: center;
+  }
+  .search input[data-pc-name='inputtext'] {
+    padding: 7px 16px 7px 2.5rem;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .search {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  .searchContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contentContainer {
+    margin: 0 20px;
+  }
+  .search button[data-pc-section="root"]{
+    height: 39px;
+  }
+
+  .fullCalender tr{
+    height: 50px;
+}
+
+
+.searchTerm {
+  margin-right: 5px;
+   font-size: 14px;
+   color: white;
+   font-weight: 500;
+   font-style: italic;
+   cursor: pointer;
+   border-radius: 8px;
+   padding: 7px 10px;
+   transition: color 0.3s;
+   background-color: rgba(71, 71, 71, 1);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+ }
+ .iconTimes{
+     font-size: 12px;
+     margin-left: 8px;
+ }
+ .filterTags{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     min-height: 85px;
+ }

@@ -1,0 +1,43 @@
+.fcEventIntern {
+    background-color: #2D3748; 
+    color: white; 
+    border: none;
+  }
+  
+  .fcEventFresher {
+    background-color: #FF7568;
+    color: white; 
+    border: none;
+
+  }
+  
+  .fcEventOnFresher {
+    background-color: #2F903F;
+    color: white; 
+    border: none;
+
+  }
+  
+  .fcEventOffFresher {
+    background-color: #D45B13;
+    color: white;
+    border: none;
+
+  }
+
+
+  .fcEventInternBlur {
+    background-color: #2d374864
+  }
+  .fcEventFresherBlur {
+    background-color: #ff756882
+  }
+  .fcEventOnFresherBlur {
+    background-color: #2f903f7a
+  }
+  .fcEventOffFresherBlur {
+    background-color: #d45a137b
+  }
+
+
+

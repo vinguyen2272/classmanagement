@@ -1,0 +1,86 @@
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 0.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 20px;
+}
+
+.search span[data-pc-name='inputicon'] {
+  align-self: center;
+}
+.search input[data-pc-name='inputtext'] {
+  padding: 7px 16px 7px 2.5rem;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+
+.search {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.contentContainer {
+  margin: 0 20px;
+}
+
+.overlayPanelContainer div[data-pc-section='content'] {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px #0000004d;
+  width: 240px;
+}
+
+.popUpMenu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px;
+  color: rgba(44, 82, 130, 1);
+  font-weight: 500;
+}
+.popUpMenu:hover {
+  background-color: rgba(223, 222, 222, 1);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Dialog */
+.dialogContainer div[data-pc-section='content'] {
+  border-radius: 0;
+  width: 400px;
+}
+.dialogContainer div[data-pc-section='header'] {
+  padding: 10px 20px;
+}
+
+.dialogHeader {
+  padding-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.dialogFooter {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+/* Tag */
+.tagContainer {
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 10px;
+}

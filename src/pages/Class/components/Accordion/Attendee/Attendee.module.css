@@ -1,0 +1,30 @@
+.attendeeAccordion {
+  box-sizing: border-box;
+  min-width: 373px;
+  width: fit-content;
+}
+
+.attendeeAccordion div[data-pc-section='content'] {
+  padding: 0px;
+}
+
+.attendeeContainer {
+  display: flex;
+  text-align: center;
+}
+
+.dropdownWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown {
+  font-size: 14px;
+  line-height: 22px;
+  width: 140px;
+  padding: 2px 0 2px 10px;
+}
+
+.dropdown input {
+  color: black;
+}

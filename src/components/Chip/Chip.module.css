@@ -1,0 +1,15 @@
+.chipButton{
+    background: #474747;
+    border: 1px solid #FFFFFF;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+}
+.spanX{
+    margin-left: 8px;
+    width: 8px;
+    height: 8px;
+}
